@@ -1,6 +1,8 @@
-body{
+.body{
     background: linear-gradient(rgb(255, 52, 208), pink, aqua);
 }
+
+/*-.-.-.-.-.-.-.-.- HOME -.-.-.-.-.-*/
 
 .redesIG{
     background: linear-gradient(rgba(0, 0, 255, 0.816), rgba(245, 50, 154, 0.855), rgba(255, 0, 0, 0.838), rgba(255, 166, 0, 0.844));
@@ -31,3 +33,21 @@ body{
 .redesFooter .redes{
     color: white;
 }
+
+/*-.-.-.-.-.-.-.-.-.- FIN DEL HOME -.-.-.-.-.-.-.-.-*/
+
+/*-.-.-.-.-.-.-.-.-.- INICIO DE CONTACTO -.-.-.-.-.-.-.-.*/
+
+.recetasContacto{
+    background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753));
+}
+
+
+
+
+
+
+
+
+
+
