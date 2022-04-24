@@ -1,3 +1,14 @@
+/*efecto para los links*/
+.links{
+    color: white;
+}
+
+.links:hover{
+    color: aqua;
+    transition: 0.4s;
+}
+
+
 
 /*-.-.-.-.-.-.-.-.- HOME -.-.-.-.-.-*/
 
@@ -27,9 +38,6 @@
     font-size: 1.8rem;
 }
 
-.redesFooter .redes{
-    color: white;
-}
 
 /*-.-.-.-.-.-.-.-.-.- FIN DEL HOME -.-.-.-.-.-.-.-.-*/
 
@@ -44,6 +52,35 @@
 .bg-degra{
     background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753));
 }
+
+/*-.-.-..-.-. FOOTER -.-..-.-.-.- */
+
+.redesFooter{
+    width: 60%;
+    background-color: white;
+}
+
+.redesFooter .redes{
+    font-size: 3rem;
+}
+
+.footerIG:hover{
+    color: rgb(179, 6, 179);
+    transition: 0.5s;             /*La transition se la pongo aca porque no me gusta que el efecto lo tenga tambien cuando le sacas el cursor al elemento*/
+}
+
+.footerFB:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.footerWS:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+/*-.-.-.-.-.- FIN DE FOOTER -.-.-.-.-.-.-*/
+
 
 
 
