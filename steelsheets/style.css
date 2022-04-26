@@ -7,8 +7,25 @@
     color: aqua;
     transition: 0.4s;
 }
+/*-.-.-.-.-.-.-.-.-.-.-.-.*/
 
+/*animacio para los titulos*/
+.titulo{
+    animation-name: titulos;
+    animation-duration: 1s;
 
+}
+
+@keyframes titulos{
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+/*-.-.-.-.-.-.-.-.-.-.-.-.*/
 
 /*-.-.-.-.-.-.-.-.- HOME -.-.-.-.-.-*/
 
@@ -40,6 +57,61 @@
 
 
 /*-.-.-.-.-.-.-.-.-.- FIN DEL HOME -.-.-.-.-.-.-.-.-*/
+
+/*-.-.-.-.-.- animaciones de pag. galeria -.-.-.-.*/
+
+.animacionesGaleria{
+    height: 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: 'roboto';
+}
+
+.animacionUno{
+    animation-name: traslado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.animacionDos{
+    animation-name: trasladoDos;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.pieAnimacion{
+    background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753));
+
+}
+
+@keyframes traslado{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes trasladoDos{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+/*-.-.-.-.-.- Fin de galeria -.-.-.-.-.-.*/
 
 /*-.-.-.-.-.-.-.-.-.- INICIO DE CONTACTO -.-.-.-.-.-.-.-.*/
 
