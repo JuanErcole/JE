@@ -1,0 +1,97 @@
+@import 'variables';
+
+
+header{
+    .container{
+        .nav{
+            .nav-item{
+                .links{
+                    color: white;
+                }
+
+                .links:hover{
+                    color: aqua;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+}
+
+main{
+    .container{
+        .row{
+            .titulo{
+                animation-name: titulos;
+                animation-duration: 1s;
+            }
+            @keyframes titulos{
+                0%{
+                    transform: scale(0);
+                }
+            
+                100%{
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .redesFooter{
+        width: 60%;
+        background-color: white;
+
+        .redes{
+            font-size: 3rem;
+            color: black;
+        }
+        
+        .footerIG:hover{
+            color: rgb(179, 6, 179);
+            transition: 0.5s;             
+        }
+        
+        .footerFB:hover{
+            color: blue;
+            transition: 0.5s;
+        }
+        
+        .footerWS:hover{
+            color: green;
+            transition: 0.5s;
+        }
+
+    }
+
+    .container{
+        .nav{
+            .nav-item{
+                .links{
+                    color: white;
+                }
+
+                .links:hover{
+                    color: aqua;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+
+}
+
+@import 'home';
+@import 'contacto';
+@import 'productos';
+@import 'galeria';
+
+
+
+
+
+
+
+
+

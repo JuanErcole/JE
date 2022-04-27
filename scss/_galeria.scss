@@ -1,0 +1,56 @@
+
+main{
+    .container{
+        .row{
+            .animacionesGaleria{
+                height: 3rem;
+                font-size: 1.8rem;
+                text-align: center;
+                margin: 1rem 0;
+                font-family: 'roboto';
+            }
+            
+            .animacionUno{
+                animation-name: traslado;
+                animation-duration: 5s;
+                animation-iteration-count: 5;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+                
+            }
+            
+            .animacionDos{
+                animation-name: trasladoDos;
+                animation-duration: 5s;
+                animation-iteration-count: 5;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
+            }
+            
+            .pieAnimacion{
+                background: $gradiente;
+            
+            }
+            
+            @keyframes traslado{
+                0%{
+                    transform: translateX(100%);
+                }
+            
+                100%{
+                    transform: translateX(0);
+                }
+            }
+            
+            @keyframes trasladoDos{
+                0%{
+                    transform: translateX(-100%);
+                }
+            
+                100%{
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+}

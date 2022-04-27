@@ -1,0 +1,103 @@
+header .container .nav .nav-item .links {
+  color: white; }
+
+header .container .nav .nav-item .links:hover {
+  color: aqua;
+  transition: 0.4s; }
+
+main .container .row .titulo {
+  animation-name: titulos;
+  animation-duration: 1s; }
+
+@keyframes titulos {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+footer .redesFooter {
+  width: 60%;
+  background-color: white; }
+  footer .redesFooter .redes {
+    font-size: 3rem;
+    color: black; }
+  footer .redesFooter .footerIG:hover {
+    color: #b306b3;
+    transition: 0.5s; }
+  footer .redesFooter .footerFB:hover {
+    color: blue;
+    transition: 0.5s; }
+  footer .redesFooter .footerWS:hover {
+    color: green;
+    transition: 0.5s; }
+
+footer .container .nav .nav-item .links {
+  color: white; }
+
+footer .container .nav .nav-item .links:hover {
+  color: aqua;
+  transition: 0.4s; }
+
+main .container .row .container .redesIG {
+  background: linear-gradient(rgba(0, 0, 255, 0.816), rgba(245, 50, 154, 0.855), rgba(255, 0, 0, 0.838), rgba(255, 166, 0, 0.844));
+  border: 1px solid black;
+  margin-top: 0.5rem;
+  padding: 0.5rem; }
+
+main .container .row .container .redesFB {
+  background-color: blue;
+  border: 1px solid black;
+  margin: 0.5rem 0;
+  padding: 0.5rem; }
+
+main .container .row .container .redesWS {
+  background-color: lime;
+  border: 1px solid black;
+  padding: 00.5rem;
+  margin-bottom: 0.5rem; }
+
+main .container .row .container .redes {
+  color: black;
+  font-size: 1.8rem; }
+
+main .container .row .recetasContacto {
+  background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753)); }
+
+main .container .row .col div p .btnGaleria {
+  background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753)); }
+
+main .container .row .animacionesGaleria {
+  height: 3rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-family: 'roboto'; }
+
+main .container .row .animacionUno {
+  animation-name: traslado;
+  animation-duration: 5s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out; }
+
+main .container .row .animacionDos {
+  animation-name: trasladoDos;
+  animation-duration: 5s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out; }
+
+main .container .row .pieAnimacion {
+  background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753)); }
+
+@keyframes traslado {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes trasladoDos {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0); } }
