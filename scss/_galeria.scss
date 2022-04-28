@@ -12,8 +12,7 @@ main{
             
             .animacionUno{
                 animation-name: traslado;
-                animation-duration: 5s;
-                animation-iteration-count: 5;
+                animation-duration: 4s;
                 animation-direction: alternate;
                 animation-timing-function: ease-in-out;
                 
@@ -21,8 +20,7 @@ main{
             
             .animacionDos{
                 animation-name: trasladoDos;
-                animation-duration: 5s;
-                animation-iteration-count: 5;
+                animation-duration: 4s;
                 animation-direction: alternate;
                 animation-timing-function: ease-in-out;
             }

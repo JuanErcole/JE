@@ -1,3 +1,23 @@
+header .header__animacion-1 {
+  animation-name: animacionHeader-1;
+  animation-duration: 1s; }
+
+@keyframes animacionHeader-1 {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(100%); } }
+
+header .header__animacion-2 {
+  animation-name: animacionHeader-2;
+  animation-duration: 2s; }
+
+@keyframes animacionHeader-2 {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(100%); } }
+
 header .container .nav .nav-item .links {
   color: white; }
 
@@ -7,7 +27,7 @@ header .container .nav .nav-item .links:hover {
 
 main .container .row .titulo {
   animation-name: titulos;
-  animation-duration: 1s; }
+  animation-duration: 3s; }
 
 @keyframes titulos {
   0% {
@@ -75,15 +95,13 @@ main .container .row .animacionesGaleria {
 
 main .container .row .animacionUno {
   animation-name: traslado;
-  animation-duration: 5s;
-  animation-iteration-count: 5;
+  animation-duration: 4s;
   animation-direction: alternate;
   animation-timing-function: ease-in-out; }
 
 main .container .row .animacionDos {
   animation-name: trasladoDos;
-  animation-duration: 5s;
-  animation-iteration-count: 5;
+  animation-duration: 4s;
   animation-direction: alternate;
   animation-timing-function: ease-in-out; }
 
