@@ -28,6 +28,20 @@ main{
                     font-size: 1.8rem;
                 }
             }
+            .home__seleccion{
+                margin: 1rem 0;
+                padding: 1rem;
+                background: $gradiente;
+                border-radius: 2rem;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                a:hover{
+                    color:blue;
+                }
+            }
         }
     }
 }

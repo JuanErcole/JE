@@ -1,0 +1,40 @@
+$estilos:(
+    espaciado: 1.5rem,
+    bg: linearGradient(rgb(8, 239, 255), white, rgb(8, 239, 255)),
+    fuente: 'Dosis', 
+    sizeFont: 2rem,
+    sizeFont2: 3rem,
+);
+
+main{
+    .container{
+        .heroContainer{
+            margin-bottom: map-get($estilos , espaciado);
+            height: 660px;
+            background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../assets/bg-mundial2.PNG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 70% 70%;
+
+            .heroContainer__textos{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+
+                h1{
+                    font-size: map-get($estilos, sizeFont2 );
+                    font-family: map-get($estilos, fuente );
+                }
+
+                p{
+                    font-size: map-get($estilos, sizeFont );
+                    font-family: map-get($estilos, fuente );
+
+                }
+            }
+        }
+    }
+}
