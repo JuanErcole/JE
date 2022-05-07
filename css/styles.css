@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 header .header__animacion-1 {
   animation-name: animacionHeader-1;
   animation-duration: 1s; }
@@ -131,6 +136,9 @@ main .container .row .pieAnimacion {
     transform: translateX(-100%); }
   100% {
     transform: translateX(0); } }
+
+main .container .recetasContacto {
+  background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753)); }
 
 /*Aprovecho esta pagina para agregar mas css puro, flexbox y grid*/
 /*-.-.-.-.- mapa -.-.-.-*/
