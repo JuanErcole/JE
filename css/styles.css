@@ -23,6 +23,12 @@ header .header__animacion-2 {
   100% {
     transform: scale(100%); } }
 
+header .container .nav .nav-item .mundial {
+  color: aqua; }
+
+header .container .nav .nav-item .mundial:hover {
+  color: #ff0088; }
+
 header .container .nav .nav-item .links {
   color: white; }
 
@@ -65,19 +71,16 @@ footer .container .nav .nav-item .links:hover {
 
 main .container .row .container .redesIG {
   background: linear-gradient(rgba(0, 0, 255, 0.816), rgba(245, 50, 154, 0.855), rgba(255, 0, 0, 0.838), rgba(255, 166, 0, 0.844));
-  border: 1px solid black;
   margin-top: 0.5rem;
   padding: 0.5rem; }
 
 main .container .row .container .redesFB {
   background-color: blue;
-  border: 1px solid black;
   margin: 0.5rem 0;
   padding: 0.5rem; }
 
 main .container .row .container .redesWS {
   background-color: lime;
-  border: 1px solid black;
   padding: 00.5rem;
   margin-bottom: 0.5rem; }
 
@@ -95,7 +98,7 @@ main .container .row .home__seleccion {
     text-decoration: none;
     color: black; }
   main .container .row .home__seleccion a:hover {
-    color: blue; }
+    color: red; }
 
 main .container .row .recetasContacto {
   background: linear-gradient(to left, rgba(255, 52, 208, 0.781), pink, rgba(0, 255, 255, 0.753)); }
